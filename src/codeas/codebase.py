@@ -33,7 +33,7 @@ class Codebase(BaseModel):
         the tests format, by default ".py"
     """
 
-    language: str
+    language: str = "python"
     code_folder: str = "./src/"
     docs_folder: str = "./docs/"
     tests_folder: str = "./tests/"
